@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: File",
+            "name": "Python: Test",
             "type": "python",
             "request": "launch",
-            "program": "/Users/rustamkrikbayev/pipe-service/app/fbprophet.py",
+            "program": "/Users/rustamkrikbayev/pipe-service/app/test.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }
