@@ -3,8 +3,7 @@
 
 block_cipher = None
 
-
-a = Analysis(['fbprophet.py'],
+a = Analysis(['prophet.py'],
              pathex=['/application'],
              binaries=[],
              datas=[],
@@ -26,7 +25,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,  
           [],
-          name='fbprophet',
+          name='prophet',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
