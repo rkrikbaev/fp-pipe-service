@@ -1,6 +1,0 @@
-READMY.md
-Dockerfile
-docker-compose
-.dockerignore
-test*
-__pycache__
