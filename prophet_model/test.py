@@ -1,3 +1,4 @@
+#!./.venv/bin/python3
 import pandas as pd
 from models import ProphetModel
 from datetime import datetime
@@ -98,7 +99,7 @@ if __name__ == "__main__":
     pr = 3
     pw = 4
 
-    rf = os.fdopen(pr)
+    # rf = os.fdopen(pr)
     # request = rf.readline()
 
     try:
