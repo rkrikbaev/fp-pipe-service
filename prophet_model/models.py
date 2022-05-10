@@ -13,10 +13,7 @@ from prophet import Prophet, serialize
 import pandas as pd
 import mlflow
 import json
-import sys
 import logging
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG,
-                    format=f"%(asctime)s - [%(levelname)s] - %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s")
 logger = logging.getLogger(__name__)
 
 # import holidays as holidays

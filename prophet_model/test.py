@@ -11,7 +11,6 @@ logging.basicConfig(stream=sys.stdout, level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 pd.options.mode.chained_assignment = None  # default='warn'
 
-
 class Process:
 
     def __init__(self):

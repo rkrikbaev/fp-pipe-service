@@ -1,4 +1,4 @@
-#!./.venv/bin/python3
+#!.venv/bin/python3
 import pandas as pd
 from models import ProphetModel
 from datetime import datetime
